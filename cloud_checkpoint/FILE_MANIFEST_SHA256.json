@@ -1,262 +1,282 @@
-﻿[
-    {
-        "Path":  "CLOUD_HANDOFF_BIBLE_2_0.md",
-        "SHA256":  "67C41BDE03E06B6C24A9B15AF096A6ECF0F53691BE03663D100FF8E024CA7572",
-        "Bytes":  6805
-    },
-    {
-        "Path":  "CLOUD_HANDOFF_G_GUIDE.md",
-        "SHA256":  "CA759F0715DCB6109EF1445BF0AB9E21392D34456C83C0E9AC5F64423490440B",
-        "Bytes":  2520
-    },
-    {
-        "Path":  "README.md",
-        "SHA256":  "3E32C62F9AE8C23FADC03D257CEE937660396AC93C51A475FE3F42C8ABE6317A",
-        "Bytes":  2283
-    },
-    {
-        "Path":  "analysis/CODEX_AXIS_0_1_ESOTERIC_TEACHING_RU.md",
-        "SHA256":  "1751377588099E62DAEC38F5DCEE64C6A05D9B1FA05A66E5EF2ECBD0109E4BAD",
-        "Bytes":  78757
-    },
-    {
-        "Path":  "analysis/CRITICAL_AUDIT_ULTRA_MEGA_MAX_RU.md",
-        "SHA256":  "EC4467909A02B7FFC399B0B865831B9873C7AFF39300F0C9AF1699E80CF77827",
-        "Bytes":  75683
-    },
-    {
-        "Path":  "analysis/MASTER_PROMPT_FULL_REWRITE_BIBLE_2_0_RU.md",
-        "SHA256":  "5C98BB3203910FA7D949B583CE82E1632C55C7389CDB698763D9C9BF87417866",
-        "Bytes":  24207
-    },
-    {
-        "Path":  "bible_2_0/SOURCE_AND_SYMBOL_MAP.md",
-        "SHA256":  "8650E5E8D5DDC073A098D4AB0E90E5DEE8FA548EDC5D2049AC5661FFA2105FA2",
-        "Bytes":  61570
-    },
-    {
-        "Path":  "bible_2_0/assets/visual_manifest.json",
-        "SHA256":  "028083CD0159A95F15F0D66BE6160C91377CD57638BD46173499E7959A6D93E0",
-        "Bytes":  11850
-    },
-    {
-        "Path":  "bible_2_0/manuscript/00_PROLOGUE.md",
-        "SHA256":  "73103AAAF2458B0527BDC49A07E0FB4118183A1C531C2ACCEEFA6E556654B125",
-        "Bytes":  22119
-    },
-    {
-        "Path":  "bible_2_0/manuscript/01_BODY.md",
-        "SHA256":  "8D6CBA11596464F224ABA594094FB0303209DD6BBFC88D27E1140C0B50A46C5C",
-        "Bytes":  77866
-    },
-    {
-        "Path":  "bible_2_0/manuscript/02_NAME.md",
-        "SHA256":  "4E90D88E75A1DC5DDA34FD6CA03DB0CFCE884F6B49D04B8DF870E3793FD6B6DF",
-        "Bytes":  82771
-    },
-    {
-        "Path":  "bible_2_0/manuscript/03_FIRE.md",
-        "SHA256":  "764046ED2513F6BA1ABC9DF420003F8CF3067D1E6F7E2ED72E62B55F48C1E29A",
-        "Bytes":  56793
-    },
-    {
-        "Path":  "bible_2_0/manuscript/04_FORGE.md",
-        "SHA256":  "071129DAEF87F67B07448AD54C7ACA85364E6CE50777C6A3DB10C753022ECDA8",
-        "Bytes":  57713
-    },
-    {
-        "Path":  "bible_2_0/manuscript/05_COVENANT.md",
-        "SHA256":  "C70167AD9E81A1AE10373038357DC287440472BD7F52A22181860FA22F5E08C5",
-        "Bytes":  84908
-    },
-    {
-        "Path":  "bible_2_0/manuscript/06_CROWN.md",
-        "SHA256":  "CBA72895FC9A4852125283776B11EC91E3807A41A2062C5DB3A254587819ED50",
-        "Bytes":  74965
-    },
-    {
-        "Path":  "bible_2_0/manuscript/07_VEIL.md",
-        "SHA256":  "7C8122437CC08CCF341A484576B74179BCB9BEB14BD24C0937550E58444D2B51",
-        "Bytes":  73916
-    },
-    {
-        "Path":  "bible_2_0/manuscript/08_HARVEST.md",
-        "SHA256":  "5A3E571C37115D3BBCF21FCA90544D48FDD11314BBF8CB4065CAE460CA23ED71",
-        "Bytes":  85689
-    },
-    {
-        "Path":  "bible_2_0/manuscript/09_GATES.md",
-        "SHA256":  "8813DFAC3166A6BF70322288AB9311074AB222751D728828FDAA4A134FA7F15A",
-        "Bytes":  60897
-    },
-    {
-        "Path":  "bible_2_0/manuscript/10_SEAL.md",
-        "SHA256":  "A96501318E85C7D872F2EE4102546AAD4E755D8E890028B1D0187BD35E69EACD",
-        "Bytes":  5425
-    },
-    {
-        "Path":  "bible_2_0/qa/ACCEPTANCE_GATE_60.md",
-        "SHA256":  "9A6887BB0B619602BE8EF94F60976BD45D6AC8B505FB08CFD1E8D396D9EDBB8B",
-        "Bytes":  7383
-    },
-    {
-        "Path":  "bible_2_0/qa/canonical_coverage_final_pre.md",
-        "SHA256":  "03B82AADDAE3AE93FA3910BE23CCEF0BA3B855B7CD8F9599D299D3CCF57B0DE5",
-        "Bytes":  3383
-    },
-    {
-        "Path":  "bible_2_0/qa/corpus_universality_final_pre.md",
-        "SHA256":  "135385201F1015F24E84927EEFCC133D36CAFA8F601711E3C462FE179E140592",
-        "Bytes":  16699
-    },
-    {
-        "Path":  "bible_2_0/qa/current_manuscript_final_pre.md",
-        "SHA256":  "976F3D45D52F2E63CD328C2B3F4D5D00AB50DFE1B7C3520912E48B1AD7CBB935",
-        "Bytes":  7080
-    },
-    {
-        "Path":  "bible_2_0/qa/MYTHIC_POWER_GATE.md",
-        "SHA256":  "C3C0C1DC01A706C3ECAF0EE9808B385739E51E2021F05C0798DBD7FAD94E6EED",
-        "Bytes":  5990
-    },
-    {
-        "Path":  "bible_2_0/qa/NARRATIVE_CONTINUITY_AUDIT.md",
-        "SHA256":  "A4A019CB9D331DF211D09ADA46436451B07C1EE7BF6FF055FEF395E75958C866",
-        "Bytes":  14755
-    },
-    {
-        "Path":  "bible_2_0/qa/SYMBOL_SOURCE_AUDIT.md",
-        "SHA256":  "E6C1963506F725A4BDEA4D353F3D01CE2F3AF6763B5E6D35FCCBD3A333649495",
-        "Bytes":  20177
-    },
-    {
-        "Path":  "bible_2_0/qa/VISUAL_ASSET_GATE.md",
-        "SHA256":  "0E5D0220F221E97585EE50839018C5192A0368E98298F53AFA448BE610CD0C19",
-        "Bytes":  2038
-    },
-    {
-        "Path":  "bible_2_0/research/BOOK_DESIGN_TOKENS.md",
-        "SHA256":  "90998084A891A902D03AF68A7AAE48E78616B3D4A590EF312BC51D59609AF6C7",
-        "Bytes":  5266
-    },
-    {
-        "Path":  "bible_2_0/research/CANON_MYTH_ARCHITECTURE.md",
-        "SHA256":  "BACDDFDA0A596DFE19CD8C76920B82071CFEA6EC79EE6E620917C8AA5068C677",
-        "Bytes":  78483
-    },
-    {
-        "Path":  "bible_2_0/research/CANON_STYLE_BIBLE.md",
-        "SHA256":  "C7749299B8CB9072584FFB1CCBD00C477AB276A460B7F10FC5AEEDBCA2A198DB",
-        "Bytes":  13384
-    },
-    {
-        "Path":  "bible_2_0/research/CHAPTER_MATRIX_WORKING.md",
-        "SHA256":  "6FD3F495A272D3993FB99B6DD55269BD0F50FC18035168307D374BAB7ABE5E75",
-        "Bytes":  21774
-    },
-    {
-        "Path":  "bible_2_0/research/CORPUS_DIVERSIFICATION_MAP.md",
-        "SHA256":  "8EE3FC424B4AF4F5AD9A6FAE8A2CBCE6CBE07308417141B2742804818646A7A6",
-        "Bytes":  98814
-    },
-    {
-        "Path":  "bible_2_0/research/HUMAN_ARC_REDTEAM.md",
-        "SHA256":  "A53E23DAA8BC64BA80A5AEF0B1416AAEA35A9FA87F33C3D0F0A96941BA33C961",
-        "Bytes":  83444
-    },
-    {
-        "Path":  "bible_2_0/research/MOSAIC_CHARACTER_BIBLE.md",
-        "SHA256":  "523DDE6652DB1B8365F78681E6F8D1154BBA9FC14067863BF6D77D4CFBEB6437",
-        "Bytes":  60042
-    },
-    {
-        "Path":  "bible_2_0/research/REWRITE_SOURCE_DECISIONS.md",
-        "SHA256":  "DAAF4D6E30285EC4F7125FBECC4DE124294C11CECEFBA15F92AC0CD2169AF5B1",
-        "Bytes":  7635
-    },
-    {
-        "Path":  "bible_2_0/research/SYMBOL_NUMEROLOGY_ETYM.md",
-        "SHA256":  "8C1CCEF3F2BFD8137C950E75E6CE547587CEE5F916C70C342ECAE282677F7B18",
-        "Bytes":  111636
-    },
-    {
-        "Path":  "g_guide/sources/design_spec.md",
-        "SHA256":  "CB8EA369A6A5782462F152F113A1C347353168ED7164AC0436AD3495DC3A051D",
-        "Bytes":  5146
-    },
-    {
-        "Path":  "g_guide/sources/encyclopedia_manuscript.md",
-        "SHA256":  "571BB3D5C48C825C4DE7CC67ED4BEA059FD6A81E5D2964E5D263568211EAFF22",
-        "Bytes":  452740
-    },
-    {
-        "Path":  "g_guide/sources/glossary.json",
-        "SHA256":  "D095518C585FD806968750C7313E7FE63F30E02270AAD66C463286B4BAA69DD8",
-        "Bytes":  17788
-    },
-    {
-        "Path":  "g_guide/sources/manuscript_back_matter.md",
-        "SHA256":  "9C97DD6EB86F41391BB8BB86715ECD1B1A59FD005EF4ED62E66BDE1D913989A6",
-        "Bytes":  6876
-    },
-    {
-        "Path":  "g_guide/sources/manuscript_core.md",
-        "SHA256":  "A5F7BB2EC7ADCD50F0BEB26E772EA92D6804EE833EB618C6C5ADAE81C6086208",
-        "Bytes":  164874
-    },
-    {
-        "Path":  "g_guide/sources/manuscript_parts_4_5.md",
-        "SHA256":  "0C8006F963B643A9A7BA5EC0BF948EC8D06CE3F74584B9BAFC76C7C9B419A919",
-        "Bytes":  139644
-    },
-    {
-        "Path":  "g_guide/sources/manuscript_parts_6_7.md",
-        "SHA256":  "75D89687FBA0C5BA9043FC7DBE6711B9CB5FF3126A2ABCB76A8FFDF7D33FCA3C",
-        "Bytes":  129745
-    },
-    {
-        "Path":  "g_guide/sources/manuscript_preface.md",
-        "SHA256":  "0ADBEC94139C74E66E16BC0FD2D55EE002B1AB7A7DCCA5A5EFBFB0E6E0084803",
-        "Bytes":  13170
-    },
-    {
-        "Path":  "g_guide/sources/reader_architecture.md",
-        "SHA256":  "9794F22C8215A99486EB75F2F7760EEB63BFFF1228028218E70DFF73C865294C",
-        "Bytes":  47431
-    },
-    {
-        "Path":  "g_guide/sources/reader_first_audit.md",
-        "SHA256":  "945D57DC3E3B8B7BF312D9C0D14044DD515E500BE7CF45F5D2E619CC1AA02517",
-        "Bytes":  12528
-    },
-    {
-        "Path":  "g_guide/sources/sample_chapter.md",
-        "SHA256":  "E0A2CF6EDECE80A1EFEFA5E8420BA90F986455B2E6FF97857BA362B2802D8757",
-        "Bytes":  22345
-    },
-    {
-        "Path":  "g_guide/sources/semantic_coverage.md",
-        "SHA256":  "F38C3DC74B72F4E6ACF4D52D8C73E7465946AF9A26599455CD4B80C3D77F701D",
-        "Bytes":  15867
-    },
-    {
-        "Path":  "g_guide/sources/symbol_cards.json",
-        "SHA256":  "53B102642FE03F8C3FCFD4083CF949C4EB7078EA617CEFF054FCEAE972960C48",
-        "Bytes":  160498
-    },
-    {
-        "Path":  "g_guide/sources/symbol_families.md",
-        "SHA256":  "FF664B16979BE35815ACB6BDFCF8D80068D7C53209C531C2C87E3D970BC67EB5",
-        "Bytes":  34501
-    },
-    {
-        "Path":  "g_guide/sources/visual_system.md",
-        "SHA256":  "40C334C500D5F6836B0BFC0553F7D604909613EEEC795B731AD5BB44549A845B",
-        "Bytes":  19781
-    },
-    {
-        "Path":  "g_guide/sources/zodiac_spreads.json",
-        "SHA256":  "4EA99979795CE43C1ADD0939C594F2B565B6F1A2EF41CD9994F8F54C3F0C6CC0",
-        "Bytes":  25617
-    }
+[
+  {
+    "Path": "CLOUD_HANDOFF_BIBLE_2_0.md",
+    "SHA256": "67C41BDE03E06B6C24A9B15AF096A6ECF0F53691BE03663D100FF8E024CA7572",
+    "Bytes": 6805
+  },
+  {
+    "Path": "CLOUD_HANDOFF_G_GUIDE.md",
+    "SHA256": "CA759F0715DCB6109EF1445BF0AB9E21392D34456C83C0E9AC5F64423490440B",
+    "Bytes": 2520
+  },
+  {
+    "Path": "README.md",
+    "SHA256": "3E32C62F9AE8C23FADC03D257CEE937660396AC93C51A475FE3F42C8ABE6317A",
+    "Bytes": 2283
+  },
+  {
+    "Path": "analysis/CODEX_AXIS_0_1_ESOTERIC_TEACHING_RU.md",
+    "SHA256": "1751377588099E62DAEC38F5DCEE64C6A05D9B1FA05A66E5EF2ECBD0109E4BAD",
+    "Bytes": 78757
+  },
+  {
+    "Path": "analysis/CRITICAL_AUDIT_ULTRA_MEGA_MAX_RU.md",
+    "SHA256": "EC4467909A02B7FFC399B0B865831B9873C7AFF39300F0C9AF1699E80CF77827",
+    "Bytes": 75683
+  },
+  {
+    "Path": "analysis/MASTER_PROMPT_FULL_REWRITE_BIBLE_2_0_RU.md",
+    "SHA256": "5C98BB3203910FA7D949B583CE82E1632C55C7389CDB698763D9C9BF87417866",
+    "Bytes": 24207
+  },
+  {
+    "Path": "bible_2_0/CHANGELOG_2026-07-20.md",
+    "SHA256": "68112F76618D251CFBA1DD5A007209557FEFC28DBE2A3C54A8640A9F6A450798",
+    "Bytes": 2918
+  },
+  {
+    "Path": "bible_2_0/SOURCE_AND_SYMBOL_MAP.md",
+    "SHA256": "B071F190F841647DD222FC812C1C57B39B0675C8F548C8F12BA6137D7A97AD91",
+    "Bytes": 62503
+  },
+  {
+    "Path": "bible_2_0/assets/visual_manifest.json",
+    "SHA256": "028083CD0159A95F15F0D66BE6160C91377CD57638BD46173499E7959A6D93E0",
+    "Bytes": 11850
+  },
+  {
+    "Path": "bible_2_0/build_release.py",
+    "SHA256": "1031A354BD75718FD904B52EE19392020E07429B69E5DD3EEF5B0564827818CF",
+    "Bytes": 17161
+  },
+  {
+    "Path": "bible_2_0/manuscript/00_PROLOGUE.md",
+    "SHA256": "8288D85DADBB2ADE46D9C794131CDF7C77F0CA25FD4D8EB193B766F47B12330A",
+    "Bytes": 22654
+  },
+  {
+    "Path": "bible_2_0/manuscript/01_BODY.md",
+    "SHA256": "8D6CBA11596464F224ABA594094FB0303209DD6BBFC88D27E1140C0B50A46C5C",
+    "Bytes": 77866
+  },
+  {
+    "Path": "bible_2_0/manuscript/02_NAME.md",
+    "SHA256": "4E90D88E75A1DC5DDA34FD6CA03DB0CFCE884F6B49D04B8DF870E3793FD6B6DF",
+    "Bytes": 82771
+  },
+  {
+    "Path": "bible_2_0/manuscript/03_FIRE.md",
+    "SHA256": "764046ED2513F6BA1ABC9DF420003F8CF3067D1E6F7E2ED72E62B55F48C1E29A",
+    "Bytes": 56793
+  },
+  {
+    "Path": "bible_2_0/manuscript/04_FORGE.md",
+    "SHA256": "071129DAEF87F67B07448AD54C7ACA85364E6CE50777C6A3DB10C753022ECDA8",
+    "Bytes": 57713
+  },
+  {
+    "Path": "bible_2_0/manuscript/05_COVENANT.md",
+    "SHA256": "C59954E679AF13901AAFE6CA563227087644A3426A9DB0186C09699589B0B5B7",
+    "Bytes": 85633
+  },
+  {
+    "Path": "bible_2_0/manuscript/06_CROWN.md",
+    "SHA256": "CBA72895FC9A4852125283776B11EC91E3807A41A2062C5DB3A254587819ED50",
+    "Bytes": 74965
+  },
+  {
+    "Path": "bible_2_0/manuscript/07_VEIL.md",
+    "SHA256": "7C8122437CC08CCF341A484576B74179BCB9BEB14BD24C0937550E58444D2B51",
+    "Bytes": 73916
+  },
+  {
+    "Path": "bible_2_0/manuscript/08_HARVEST.md",
+    "SHA256": "296396EB62044105B7A52616B9BD6C11DA681A53D0A1EDD69F50A73FD0F0F11B",
+    "Bytes": 88239
+  },
+  {
+    "Path": "bible_2_0/manuscript/09_GATES.md",
+    "SHA256": "AAA63D42D16601BE74DF97BA76DCD9DD1B23C88197C20035252C38A5FE041860",
+    "Bytes": 61549
+  },
+  {
+    "Path": "bible_2_0/manuscript/10_SEAL.md",
+    "SHA256": "9B5E6184AD00C45CE7B59B4177412A6E78923E086DBF2128A9C8AA645AC806D2",
+    "Bytes": 5739
+  },
+  {
+    "Path": "bible_2_0/output/BIBLE_2_0_0_TO_1_RELEASE.md",
+    "SHA256": "476508FECF62F23129A507CDBE47104B85BE2291628EB6F0AE79CAE98B13CBA8",
+    "Bytes": 697720
+  },
+  {
+    "Path": "bible_2_0/qa/ACCEPTANCE_GATE_60.md",
+    "SHA256": "9A6887BB0B619602BE8EF94F60976BD45D6AC8B505FB08CFD1E8D396D9EDBB8B",
+    "Bytes": 7383
+  },
+  {
+    "Path": "bible_2_0/qa/MYTHIC_POWER_GATE.md",
+    "SHA256": "C3C0C1DC01A706C3ECAF0EE9808B385739E51E2021F05C0798DBD7FAD94E6EED",
+    "Bytes": 5990
+  },
+  {
+    "Path": "bible_2_0/qa/NARRATIVE_CONTINUITY_AUDIT.md",
+    "SHA256": "A4A019CB9D331DF211D09ADA46436451B07C1EE7BF6FF055FEF395E75958C866",
+    "Bytes": 14755
+  },
+  {
+    "Path": "bible_2_0/qa/RELEASE_QA.md",
+    "SHA256": "1C6347288A2E7DE61A8EACB7C95367B70703F5CE920873193C7D95F329A61C46",
+    "Bytes": 6420
+  },
+  {
+    "Path": "bible_2_0/qa/SYMBOL_SOURCE_AUDIT.md",
+    "SHA256": "E6C1963506F725A4BDEA4D353F3D01CE2F3AF6763B5E6D35FCCBD3A333649495",
+    "Bytes": 20177
+  },
+  {
+    "Path": "bible_2_0/qa/VISUAL_ASSET_GATE.md",
+    "SHA256": "0E5D0220F221E97585EE50839018C5192A0368E98298F53AFA448BE610CD0C19",
+    "Bytes": 2038
+  },
+  {
+    "Path": "bible_2_0/qa/canonical_coverage_final_pre.md",
+    "SHA256": "03B82AADDAE3AE93FA3910BE23CCEF0BA3B855B7CD8F9599D299D3CCF57B0DE5",
+    "Bytes": 3383
+  },
+  {
+    "Path": "bible_2_0/qa/corpus_universality_final_pre.md",
+    "SHA256": "135385201F1015F24E84927EEFCC133D36CAFA8F601711E3C462FE179E140592",
+    "Bytes": 16699
+  },
+  {
+    "Path": "bible_2_0/qa/current_manuscript_final_pre.md",
+    "SHA256": "976F3D45D52F2E63CD328C2B3F4D5D00AB50DFE1B7C3520912E48B1AD7CBB935",
+    "Bytes": 7080
+  },
+  {
+    "Path": "bible_2_0/research/BOOK_DESIGN_TOKENS.md",
+    "SHA256": "90998084A891A902D03AF68A7AAE48E78616B3D4A590EF312BC51D59609AF6C7",
+    "Bytes": 5266
+  },
+  {
+    "Path": "bible_2_0/research/CANON_MYTH_ARCHITECTURE.md",
+    "SHA256": "39914368ED5DE3B5F24512C4EB89715710CA02AC5EED63BDA8AFE9B6591904E9",
+    "Bytes": 79401
+  },
+  {
+    "Path": "bible_2_0/research/CANON_STYLE_BIBLE.md",
+    "SHA256": "C7749299B8CB9072584FFB1CCBD00C477AB276A460B7F10FC5AEEDBCA2A198DB",
+    "Bytes": 13384
+  },
+  {
+    "Path": "bible_2_0/research/CHAPTER_MATRIX_WORKING.md",
+    "SHA256": "537455790B8BC92A2773543A1AE31C0E65DF5C14AF3FF6C91C166CE87C561A02",
+    "Bytes": 22437
+  },
+  {
+    "Path": "bible_2_0/research/CORPUS_DIVERSIFICATION_MAP.md",
+    "SHA256": "D1771C1BBDD2C27F40401F517AD5D45824F76CD0418D3146423371F938B879CD",
+    "Bytes": 99602
+  },
+  {
+    "Path": "bible_2_0/research/HUMAN_ARC_REDTEAM.md",
+    "SHA256": "A53E23DAA8BC64BA80A5AEF0B1416AAEA35A9FA87F33C3D0F0A96941BA33C961",
+    "Bytes": 83444
+  },
+  {
+    "Path": "bible_2_0/research/MOSAIC_CHARACTER_BIBLE.md",
+    "SHA256": "F635652DCF199A573C6AEC6504D453023A8ACD3C095AA00C23612636FE525798",
+    "Bytes": 61818
+  },
+  {
+    "Path": "bible_2_0/research/REWRITE_SOURCE_DECISIONS.md",
+    "SHA256": "DAAF4D6E30285EC4F7125FBECC4DE124294C11CECEFBA15F92AC0CD2169AF5B1",
+    "Bytes": 7635
+  },
+  {
+    "Path": "bible_2_0/research/SYMBOL_NUMEROLOGY_ETYM.md",
+    "SHA256": "8C1CCEF3F2BFD8137C950E75E6CE547587CEE5F916C70C342ECAE282677F7B18",
+    "Bytes": 111636
+  },
+  {
+    "Path": "g_guide/sources/design_spec.md",
+    "SHA256": "CB8EA369A6A5782462F152F113A1C347353168ED7164AC0436AD3495DC3A051D",
+    "Bytes": 5146
+  },
+  {
+    "Path": "g_guide/sources/encyclopedia_manuscript.md",
+    "SHA256": "571BB3D5C48C825C4DE7CC67ED4BEA059FD6A81E5D2964E5D263568211EAFF22",
+    "Bytes": 452740
+  },
+  {
+    "Path": "g_guide/sources/glossary.json",
+    "SHA256": "D095518C585FD806968750C7313E7FE63F30E02270AAD66C463286B4BAA69DD8",
+    "Bytes": 17788
+  },
+  {
+    "Path": "g_guide/sources/manuscript_back_matter.md",
+    "SHA256": "9C97DD6EB86F41391BB8BB86715ECD1B1A59FD005EF4ED62E66BDE1D913989A6",
+    "Bytes": 6876
+  },
+  {
+    "Path": "g_guide/sources/manuscript_core.md",
+    "SHA256": "A5F7BB2EC7ADCD50F0BEB26E772EA92D6804EE833EB618C6C5ADAE81C6086208",
+    "Bytes": 164874
+  },
+  {
+    "Path": "g_guide/sources/manuscript_parts_4_5.md",
+    "SHA256": "0C8006F963B643A9A7BA5EC0BF948EC8D06CE3F74584B9BAFC76C7C9B419A919",
+    "Bytes": 139644
+  },
+  {
+    "Path": "g_guide/sources/manuscript_parts_6_7.md",
+    "SHA256": "75D89687FBA0C5BA9043FC7DBE6711B9CB5FF3126A2ABCB76A8FFDF7D33FCA3C",
+    "Bytes": 129745
+  },
+  {
+    "Path": "g_guide/sources/manuscript_preface.md",
+    "SHA256": "0ADBEC94139C74E66E16BC0FD2D55EE002B1AB7A7DCCA5A5EFBFB0E6E0084803",
+    "Bytes": 13170
+  },
+  {
+    "Path": "g_guide/sources/reader_architecture.md",
+    "SHA256": "9794F22C8215A99486EB75F2F7760EEB63BFFF1228028218E70DFF73C865294C",
+    "Bytes": 47431
+  },
+  {
+    "Path": "g_guide/sources/reader_first_audit.md",
+    "SHA256": "945D57DC3E3B8B7BF312D9C0D14044DD515E500BE7CF45F5D2E619CC1AA02517",
+    "Bytes": 12528
+  },
+  {
+    "Path": "g_guide/sources/sample_chapter.md",
+    "SHA256": "E0A2CF6EDECE80A1EFEFA5E8420BA90F986455B2E6FF97857BA362B2802D8757",
+    "Bytes": 22345
+  },
+  {
+    "Path": "g_guide/sources/semantic_coverage.md",
+    "SHA256": "F38C3DC74B72F4E6ACF4D52D8C73E7465946AF9A26599455CD4B80C3D77F701D",
+    "Bytes": 15867
+  },
+  {
+    "Path": "g_guide/sources/symbol_cards.json",
+    "SHA256": "53B102642FE03F8C3FCFD4083CF949C4EB7078EA617CEFF054FCEAE972960C48",
+    "Bytes": 160498
+  },
+  {
+    "Path": "g_guide/sources/symbol_families.md",
+    "SHA256": "FF664B16979BE35815ACB6BDFCF8D80068D7C53209C531C2C87E3D970BC67EB5",
+    "Bytes": 34501
+  },
+  {
+    "Path": "g_guide/sources/visual_system.md",
+    "SHA256": "40C334C500D5F6836B0BFC0553F7D604909613EEEC795B731AD5BB44549A845B",
+    "Bytes": 19781
+  },
+  {
+    "Path": "g_guide/sources/zodiac_spreads.json",
+    "SHA256": "4EA99979795CE43C1ADD0939C594F2B565B6F1A2EF41CD9994F8F54C3F0C6CC0",
+    "Bytes": 25617
+  }
 ]
