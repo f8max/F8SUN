@@ -1,0 +1,3 @@
+# The checkpoint manifest records these source artifacts byte-for-byte with CRLF.
+cloud_checkpoint/g_guide/sources/symbol_cards.json -text
+cloud_checkpoint/g_guide/sources/symbol_families.md -text
