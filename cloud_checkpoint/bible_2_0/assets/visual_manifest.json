@@ -1,0 +1,271 @@
+[
+  {
+    "file": "00_cover.png",
+    "sha256": "fa1a57e22222f3466c7dcb328b0b7a6ef763972670be4cd8ec65dc3df6bbf664",
+    "width": 1800,
+    "height": 2550,
+    "key": "cover",
+    "title": "Обложка",
+    "alt": "Круг, Точка, Ось и Спираль на тёмном поле; название КОДЕКС 0→1."
+  },
+  {
+    "file": "book_01_тело.png",
+    "sha256": "145ba1bff428cbe4e59358588bf5c2f632b41d9e54c680825c3ebc82240ca634",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_01",
+    "book": 1,
+    "title": "ТЕЛО",
+    "alt": "Открывающая пластина книги 1: ТЕЛО. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_02_имя.png",
+    "sha256": "6c7471323754980f08952d64b133631b21438085fd2f71ba194e7be90868550c",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_02",
+    "book": 2,
+    "title": "ИМЯ",
+    "alt": "Открывающая пластина книги 2: ИМЯ. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_03_огонь.png",
+    "sha256": "5064678d50661821ae86898f09091f72b80585abfd794f2e12a742bcbc540d98",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_03",
+    "book": 3,
+    "title": "ОГОНЬ",
+    "alt": "Открывающая пластина книги 3: ОГОНЬ. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_04_кузница.png",
+    "sha256": "46069b52002cfb64fe384b2cbe55392ed3792a671bb17ee54ecdeddfa1f6c18c",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_04",
+    "book": 4,
+    "title": "КУЗНИЦА",
+    "alt": "Открывающая пластина книги 4: КУЗНИЦА. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_05_завет.png",
+    "sha256": "27b4370415dc2b4ec0a07169914b8d4fd9321f94874bc6801045d497ec9a277c",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_05",
+    "book": 5,
+    "title": "ЗАВЕТ",
+    "alt": "Открывающая пластина книги 5: ЗАВЕТ. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_06_корона.png",
+    "sha256": "2f2290fa15f79d19a90fe4224684934526ae6e100ee981e29f8a4db8f6bfd4e5",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_06",
+    "book": 6,
+    "title": "КОРОНА",
+    "alt": "Открывающая пластина книги 6: КОРОНА. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_07_покров.png",
+    "sha256": "cea5b647b914d5e29834757978216c791195da485ad595a2004ac49aca6e0568",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_07",
+    "book": 7,
+    "title": "ПОКРОВ",
+    "alt": "Открывающая пластина книги 7: ПОКРОВ. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_08_жатва.png",
+    "sha256": "0e7b7b731516de6be08308448f8f7d66f4d35bf6a652842e1e3e54d240bbf6d3",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_08",
+    "book": 8,
+    "title": "ЖАТВА",
+    "alt": "Открывающая пластина книги 8: ЖАТВА. Центральный сигил и материал книги."
+  },
+  {
+    "file": "book_09_врата.png",
+    "sha256": "14d15d59b3fba3f68a0d8dd72deb96c8aeb791612ffdcf83731e71a1cff14f54",
+    "width": 1800,
+    "height": 2550,
+    "key": "book_09",
+    "book": 9,
+    "title": "ВРАТА",
+    "alt": "Открывающая пластина книги 9: ВРАТА. Центральный сигил и материал книги."
+  },
+  {
+    "file": "01_five_figures.png",
+    "sha256": "f2e9576760d0357387c98bd11b4ba7923c6346dde39516a26c0dbfcf75a8b67b",
+    "width": 1800,
+    "height": 2550,
+    "key": "five_figures",
+    "insert_after": "prologue",
+    "title": "Пять первичных фигур",
+    "alt": "Последовательность Ноль, Точка, Ось, Круг, Спираль с их устойчивыми операциями."
+  },
+  {
+    "file": "02_path_0_1.png",
+    "sha256": "b0f8e768d2176a0de4291e138de4e3536e18003e9c9506774e9bf643b436bc7d",
+    "width": 1800,
+    "height": 2550,
+    "key": "path_0_1",
+    "insert_after": "prologue",
+    "title": "Путь 0→1→10→0′",
+    "alt": "Формула пути от данного через выбор и создание к новому полю другого."
+  },
+  {
+    "file": "03_five_chambers_three_bodies.png",
+    "sha256": "58d4b428d4813a35ae1c1e0b333d368008f97f6f4462342694fc4f9de1c80d01",
+    "width": 1800,
+    "height": 2550,
+    "key": "anthropology",
+    "insert_after": 4,
+    "title": "Пять палат и три тела",
+    "alt": "Пять палат человека вокруг Оси и три масштаба существования: Плоть, Образ, След."
+  },
+  {
+    "file": "04_empty_throne_seven_machines.png",
+    "sha256": "3caedc2076c4289c39a38ba623875879ab946be6f30c196654e21eefd1b96ae2",
+    "width": 1800,
+    "height": 2550,
+    "key": "seven_machines",
+    "insert_after": 63,
+    "title": "Пустой Трон, Незахваченный Центр и семь Машин",
+    "alt": "Два состояния центра: безответный Пустой Трон и сознательно Незахваченный Центр; ниже — поток семи Машин и контрключей."
+  },
+  {
+    "file": "05_twelve_operations.png",
+    "sha256": "311371037a6f35eb21dde565e244919a60bc35d163c3ceb432e8bc09c46bb036",
+    "width": 1800,
+    "height": 2550,
+    "key": "twelve_operations",
+    "insert_after": 57,
+    "title": "Литания двенадцати операций зрелости",
+    "alt": "Круг из двенадцати знаков как двенадцати операций зрелости, от быть до верить."
+  },
+  {
+    "file": "06_sword_shield_plow_torch.png",
+    "sha256": "88fd08e82a9f9279854fda8557997b038aa14324b0bc77abb66aa59816abc668",
+    "width": 1800,
+    "height": 2550,
+    "key": "four_tools",
+    "insert_after": 27,
+    "title": "Меч, Щит, Плуг, Факел",
+    "alt": "Четыре превращения мужской силы с их искушением и зрелой формой."
+  },
+  {
+    "file": "07_six_symbol_arcs.png",
+    "sha256": "3e1909f92c1c268f5b7f976d73296f62327536ea67a9d9df5f2d488290e0d01a",
+    "width": 1800,
+    "height": 2550,
+    "key": "symbol_arcs",
+    "insert_after": 55,
+    "title": "Шесть сквозных символических дуг",
+    "alt": "Шесть семейств символов и по четыре стадии их возвращения в книге."
+  },
+  {
+    "file": "08_moon_judgment_nine_lenses.png",
+    "sha256": "f3f72e3c40ffd72eb5a32057189db8073dbbd88174fd272974cb70903e0cfba5",
+    "width": 1800,
+    "height": 2550,
+    "key": "moon_judgment",
+    "insert_after": 55,
+    "title": "Суд Луны и девять линз",
+    "alt": "Полумесяц в окружении девяти линз разбора символа и принципа и также."
+  },
+  {
+    "file": "09_gemini_double.png",
+    "sha256": "9a233738fd9935f27bb17b30b9ed433c594d5f52becbb55947ce1e35bfa370f3",
+    "width": 1800,
+    "height": 2550,
+    "key": "09_gemini_double",
+    "insert_after": 11,
+    "title": "Близнецы у Реки Неба",
+    "alt": "Близнецы у Реки Неба. GEMINI: две воли; KA: духовный двойник; КОЛОННЫ: пространство между"
+  },
+  {
+    "file": "10_vessel_arc.png",
+    "sha256": "9f8ccb4160179efdfd6a98d8a5622622e106faf8480e8c37fe565516ae1c2117",
+    "width": 1800,
+    "height": 2550,
+    "key": "10_vessel_arc",
+    "insert_after": 79,
+    "title": "Сосуд: от утробы к урне",
+    "alt": "Сосуд: от утробы к урне. УТРОБА: вынашивает; СЕРДЦЕ: принимает и возвращает; ДОМ: держит обещание; УРНА: хранит предел памяти"
+  },
+  {
+    "file": "11_fire_operations.png",
+    "sha256": "3dbf0b3239d9e1eb599eb760b34a550c08d6059c0214e22a613cf9ce55bdf52c",
+    "width": 1800,
+    "height": 2550,
+    "key": "11_fire_operations",
+    "insert_after": 26,
+    "title": "Огонь: удар, мера, цель",
+    "alt": "Огонь: удар, мера, цель. ARIES: первый удар → защита; LEO: зверь получает меру; SAGITTARIUS: стрела выбирает путь"
+  },
+  {
+    "file": "12_forge_constellation.png",
+    "sha256": "a78794b65d7c1f8bd818b7d2db69f76015df661b105d5d6b73b0a8d1a3c754f8",
+    "width": 1800,
+    "height": 2550,
+    "key": "12_forge_constellation",
+    "insert_after": 35,
+    "title": "Цена, мера, граница, память",
+    "alt": "Цена, мера, граница, память. TAURUS: ценность и владение; LIBRA: вес и последний счёт; CAPRICORN: граница и зима; AQUARIUS: урна памяти"
+  },
+  {
+    "file": "13_home_keystone.png",
+    "sha256": "ea3b5fbf15f1052d2aac8d49d128830c3a9608a889101edd86c0065b6050b295",
+    "width": 1800,
+    "height": 2550,
+    "key": "13_home_keystone",
+    "insert_after": 44,
+    "title": "Дом, панцирь и замковый камень",
+    "alt": "Дом, панцирь и замковый камень. CANCER: сердце внутри защиты; TIN MAN: панцирь без циркуляции; KEYSTONE: ответственность держит свод; PISCES: две линии держит нить"
+  },
+  {
+    "file": "14_gates_cycle.png",
+    "sha256": "3458caeca19eede1fbdb5a0c21b2614903ecbdd88a24c6eb5213be0f0d11cbdd",
+    "width": 1800,
+    "height": 2550,
+    "key": "14_gates_cycle",
+    "insert_after": 80,
+    "title": "Зимний переход",
+    "alt": "Зимний переход. SCORPIO: распад и превращение; CAPRICORN: северная граница; PISCES: конец связан с началом"
+  },
+  {
+    "file": "15_number_gates.png",
+    "sha256": "ea410a98501ce00c498d5508b117df4e0e435985de3c9a1204eb5cd3e08a72f7",
+    "width": 1800,
+    "height": 2550,
+    "key": "number_gates",
+    "insert_after": "number_canon",
+    "title": "Числовые врата",
+    "alt": "Карта составных чисел от 0–9 до 144 и правил их получения."
+  },
+  {
+    "file": "16_two_births_of_word.png",
+    "sha256": "77ba093479a6ded2934007f13fe31d8a3823a5fa09f6312946c6cc9b86a764de",
+    "width": 1800,
+    "height": 2550,
+    "key": "word_modes",
+    "insert_after": "etymology",
+    "title": "ИСТОК и РЕЗОНАНС",
+    "alt": "Две типографически разделённые колонки исторической этимологии и поэтического резонанса."
+  },
+  {
+    "file": "17_seal_of_one.png",
+    "sha256": "4e5e6c2d799462abcba64afc85ba11d0c6e58e2045dcec30be4cf26925f1df0c",
+    "width": 1800,
+    "height": 2550,
+    "key": "seal_of_one",
+    "insert_after": "seal",
+    "title": "Печать Единицы",
+    "alt": "Открытый круг, Точка, Ось и Спираль; печать сохраняет узкие Врата для следующего движения."
+  }
+]
