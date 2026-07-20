@@ -1,0 +1,11 @@
+# Locally reproducible Bible 2.0 binary release and visual-QA products
+cloud_checkpoint/bible_2_0/output/*.pdf
+cloud_checkpoint/bible_2_0/output/*.docx
+cloud_checkpoint/bible_2_0/output/*.epub
+cloud_checkpoint/bible_2_0/qa/pdf_pages/
+cloud_checkpoint/bible_2_0/qa/contact_sheets/
+
+# Never publish binary render products from this text-only branch
+*.jpg
+*.jpeg
+*.png
