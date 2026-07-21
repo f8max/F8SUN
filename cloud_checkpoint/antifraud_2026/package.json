@@ -4,15 +4,15 @@
   "description": "Pinned Mermaid renderer for the repeatable antifraud guide build",
   "main": "index.js",
   "scripts": {
-    "build": "python build_release.py --clean",
-    "qa": "python qa/check_release.py"
+    "build": "python build_release_local.py --source output/ANTIFRAUD_ULTIMATE_GUIDE_2026_RU_FINAL.md --out-dir dist_release --clean",
+    "qa": "python qa/validate_release_local.py . --book output/ANTIFRAUD_ULTIMATE_GUIDE_2026_RU_FINAL.md --pdf dist_release/ANTIFRAUD_ULTIMATE_GUIDE_2026_RU_FINAL.pdf --docx dist_release/ANTIFRAUD_ULTIMATE_GUIDE_2026_RU_FINAL.docx --epub dist_release/ANTIFRAUD_ULTIMATE_GUIDE_2026_RU_FINAL.epub --manifest dist_release/manifest.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@mermaid-js/mermaid-cli": "11.9.0"
+    "@mermaid-js/mermaid-cli": "11.16.0"
   },
   "private": true
 }
