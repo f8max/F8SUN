@@ -1,0 +1,12 @@
+cloud_checkpoint/antifraud_2026/dist/
+cloud_checkpoint/antifraud_2026/qa/rendered/
+*.pdf
+*.docx
+*.epub
+*.png
+*.jpg
+*.jpeg
+__pycache__/
+*.pyc
+
+cloud_checkpoint/antifraud_2026/node_modules/
