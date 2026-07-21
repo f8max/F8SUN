@@ -1,0 +1,6 @@
+Markdown==3.8.2
+WeasyPrint==66.0
+python-docx==1.2.0
+EbookLib==0.19
+PyMuPDF==1.26.3
+Pillow==11.3.0
