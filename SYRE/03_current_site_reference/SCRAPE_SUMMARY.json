@@ -1,0 +1,116 @@
+{
+  "out": "C:\\FATE\\WORK\\oat-run-s2\\syre-original-scrape-20260729T184936",
+  "pages": 15,
+  "assetsDiscovered": 83,
+  "assetsDownloaded": 81,
+  "totalAssetBytes": 9289600,
+  "pageStatuses": [
+    {
+      "url": "https://ridesyre.com/",
+      "http": 200,
+      "title": "Home | Syre",
+      "images": 9,
+      "videos": 1
+    },
+    {
+      "url": "https://ridesyre.com/ru/",
+      "http": 200,
+      "title": "Home | Syre",
+      "images": 8,
+      "videos": 1
+    },
+    {
+      "url": "https://ridesyre.com/build/",
+      "http": 200,
+      "title": "Build your Punkcake | Syre",
+      "images": 50,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/punkcake/",
+      "http": 200,
+      "title": "Punkcake | Syre",
+      "images": 51,
+      "videos": 1
+    },
+    {
+      "url": "https://ridesyre.com/innovation/",
+      "http": 200,
+      "title": "Innovation | Syre",
+      "images": 16,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/contact/",
+      "http": 200,
+      "title": "Contact Us | Syre",
+      "images": 6,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/terms/",
+      "http": 200,
+      "title": "Terms & Conditions | Syre",
+      "images": 5,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/ru/punkcake/",
+      "http": 200,
+      "title": "Punkcake | Syre",
+      "images": 50,
+      "videos": 1
+    },
+    {
+      "url": "https://ridesyre.com/ru/build/",
+      "http": 200,
+      "title": "Создай свой Punkcake | Syre",
+      "images": 49,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/ru/innovation/",
+      "http": 200,
+      "title": "Инновации | Syre",
+      "images": 15,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/ru/contact/",
+      "http": 200,
+      "title": "Контакт с нами | Syre",
+      "images": 5,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/ru",
+      "http": 200,
+      "title": "Home | Syre",
+      "images": 8,
+      "videos": 1
+    },
+    {
+      "url": "https://ridesyre.com/ru/terms/",
+      "http": 200,
+      "title": "Условия и положения | Syre",
+      "images": 4,
+      "videos": 0
+    },
+    {
+      "url": "https://ridesyre.com/build/%3C?=%20buildSimpleCustomRoute(%27terms%27);%20?%3E",
+      "http": 404,
+      "title": "Home | Syre",
+      "images": 9,
+      "videos": 1
+    },
+    {
+      "url": "https://ridesyre.com/ru/build/%3C?=%20buildSimpleCustomRoute(%27terms%27);%20?%3E",
+      "http": 404,
+      "title": "Home | Syre",
+      "images": 8,
+      "videos": 1
+    }
+  ],
+  "manifest": "C:\\FATE\\WORK\\oat-run-s2\\syre-original-scrape-20260729T184936\\crawl-manifest.json",
+  "manifestSha256": "9ba79e480187008d92b573b620699f88132b15a0a95b7c2aa308627285721bb2"
+}

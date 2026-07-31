@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SYRE — Essential Dev Pack</title>
+  <style>
+    :root { --paper:#f3f0e8; --ink:#0d1212; --muted:#646864; --acid:#dbff39; --line:#ced0c9; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+    a { color:inherit; }
+    main { width:min(1180px,calc(100% - 40px)); margin:auto; padding:32px 0 80px; }
+    header { display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:24px; }
+    header img { width:132px; height:auto; }
+    .badge { background:var(--acid); border:1px solid var(--ink); padding:8px 12px; font:700 12px/1 monospace; }
+    h1 { max-width:900px; margin:80px 0 24px; font:500 clamp(52px,8vw,112px)/.88 Georgia,serif; letter-spacing:-.055em; }
+    .lede { max-width:760px; color:var(--muted); font-size:20px; line-height:1.5; }
+    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:16px; margin-top:64px; }
+    .card { grid-column:span 6; min-height:220px; padding:28px; border:1px solid var(--ink); background:#faf8f2; display:flex; flex-direction:column; }
+    .card.primary { grid-column:span 12; background:var(--ink); color:#f8f6ef; }
+    .eyebrow { font:700 12px/1.2 monospace; letter-spacing:.12em; text-transform:uppercase; }
+    h2 { margin:28px 0 12px; font:500 36px/1 Georgia,serif; }
+    p { line-height:1.55; }
+    .links { display:flex; flex-wrap:wrap; gap:10px; margin-top:auto; padding-top:24px; }
+    .links a { border:1px solid currentColor; padding:10px 13px; text-decoration:none; font-weight:700; font-size:13px; }
+    .links a:hover,.links a:focus-visible { background:var(--acid); color:var(--ink); }
+    .warning { margin-top:40px; border-left:8px solid var(--acid); padding:10px 20px; max-width:900px; }
+    footer { margin-top:72px; padding-top:24px; border-top:1px solid var(--line); color:var(--muted); }
+    @media (max-width:760px) { .card,.card.primary { grid-column:span 12; } h1{margin-top:48px;} }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="02_brand_assets/v2_placeholder_reference/assets/syre-logo-dark.svg" alt="SYRE">
+      <span class="badge">DEV PACK · 2026-07-31</span>
+    </header>
+    <h1>Build from facts.<br>Modernise with intent.</h1>
+    <p class="lede">Каноничные материалы, clean assets, legacy export и три полезных source-концепта без архивного шума.</p>
+
+    <section class="grid" aria-label="Dev pack sections">
+      <article class="card primary">
+        <span class="eyebrow">Start here</span>
+        <h2>Source of truth</h2>
+        <p>Сначала закройте конфликт палитры 15/39, вес, цены, географию и scope конфигуратора.</p>
+        <div class="links">
+          <a href="00_analysis/SOURCE_OF_TRUTH.md">Source of truth</a>
+          <a href="00_analysis/OPEN_PRODUCT_DECISIONS.md">Open decisions</a>
+          <a href="00_analysis/CONCEPT_SELECTION.md">Concept selection</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="eyebrow">Brand</span>
+        <h2>Color and clean frames</h2>
+        <p>AI catalog, verified previews, 14 cleaned frame PNGs and both logo SVGs.</p>
+        <div class="links">
+          <a href="02_brand_assets/color_catalog/previews/catalog-1.png">Catalog preview</a>
+          <a href="02_brand_assets/v2_placeholder_reference/screenshots/source-assets-all14.png">Frames overview</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="eyebrow">Motion</span>
+        <h2>V2 placeholder</h2>
+        <p>Selected Brownian/cursor motion. Reference implementation with documented defects.</p>
+        <div class="links">
+          <a href="02_brand_assets/v2_placeholder_reference/index.html">Open V2</a>
+          <a href="02_brand_assets/v2_placeholder_reference/SYRE_DESIGN.md">Design tokens</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="eyebrow">Legacy</span>
+        <h2>Current-site export</h2>
+        <p>Historical RU/EN copy, exact geometry/spec data, selected assets and visual overview.</p>
+        <div class="links">
+          <a href="03_current_site_reference/screenshots/legacy-desktop-overview.jpg">Desktop overview</a>
+          <a href="03_current_site_reference/legacy_product_data.json">Product JSON</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <span class="eyebrow">Code</span>
+        <h2>C1 + C3 + C4</h2>
+        <p>C1 shell, C3 state-machine, C4 brief/export. React 19, Vite 7, TypeScript.</p>
+        <div class="links">
+          <a href="04_prototypes/visual_reference/C1-C5-overview.jpg">All concepts</a>
+          <a href="04_prototypes/README.md">Run instructions</a>
+        </div>
+      </article>
+    </section>
+
+    <p class="warning"><strong>Не публиковать prototype-copy как факт.</strong> Реальный каталог содержит 15 базовых цветов; old prices/legal/geography требуют подтверждения.</p>
+    <footer>SYRE essential website development pack · file integrity: 00_analysis/SHA256SUMS.txt</footer>
+  </main>
+</body>
+</html>

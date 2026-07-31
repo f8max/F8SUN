@@ -1,0 +1,82 @@
+{
+  "decision_id": "SYRE_V2_STORYBOARD_20260729",
+  "terminal_literal": "SYRE_V2_WEB_STORYBOARD_READY_FOR_IMPL",
+  "author": "WEB (topic 457)",
+  "timestamp_utc": "2026-07-29T14:22:00Z",
+  "contract_hashes": {
+    "conductor_handoff": "82d9f256f81f1d8c691642febaf07d92a5a74badd4c433decfb23e605906bf58",
+    "prompt_patterns_synthesis": "1fbd719be777e68f396beabe00911f5e46ffee09cdd9663d1b5673a0fd1bcd71",
+    "web_reference_matrix": "e069d7ba5157ca2d1247a829f5e19b50911f1c0dcd99d713fef2b11f51fe95ca"
+  },
+  "run85_identity": {
+    "commit": "f45f31ccb619adfdbb4ecb8d247a1b87c7fb7fb0",
+    "tree": "d2a978edbbd0675426e9dcf5f4fbaae54639a1a2",
+    "aggregate": "58c27ea6f8ea9764492628d6e55f78610d87f08ef78923640c0ea4f7641dc37d",
+    "drift": "NONE"
+  },
+  "mechanics_decision": {
+    "primary": "C5_DRIFT",
+    "fallback": "C1_RAIN",
+    "fallback_condition": "Only if literal evidence proves C5 Drift cannot satisfy a specific requirement",
+    "rationale": [
+      "Brownian motion + nudge produces controlled, readable frame silhouettes",
+      "Persistent frame set with edge wrap creates deliberate composition, not constant churn",
+      "Cursor influence is subtle (nudge) — shallow and controlled per handoff Section 6",
+      "Lower alpha (0.75) and larger scale (0.12-0.20) produce fewer but more substantial frames",
+      "Gentle lateral movement creates better negative-space management"
+    ],
+    "c5_drift_mechanics": {
+      "physics": "Brownian motion + cursor nudge",
+      "frame_count": {"desktop": 14, "mobile": 7},
+      "lifecycle": "persistent with edge wrap",
+      "cursor_force": "80/(dist+100)*0.008 + mdx*0.0003",
+      "damping": "vx*0.995, vy*0.995",
+      "speed_cap": 1.5,
+      "gravity": "none",
+      "rotation": "cursorForce*0.0003, damped *0.997",
+      "scale": [0.12, 0.20],
+      "alpha": 0.75
+    },
+    "c1_rain_mechanics": {
+      "physics": "gravity-driven fall + cursor wind",
+      "frame_count": {"desktop": 14, "mobile": 7},
+      "lifecycle": "removed at bottom+200px, respawned",
+      "cursor_force": "180/(dist+40)*0.025 + mdx*0.0008",
+      "damping": "vx*0.996",
+      "speed_cap": 3.5,
+      "gravity": 0.12,
+      "rotation": "cursorForce*0.008*0.001, damped *0.999",
+      "scale": [0.10, 0.17],
+      "alpha": 0.82
+    }
+  },
+  "visual_spec": {
+    "frame_density": {"desktop_target": 10, "mobile_target": 6},
+    "frame_scale": [0.14, 0.22],
+    "negative_space": {"desktop": "35-50%", "mobile": "20-30%"},
+    "logo": {
+      "desktop_css": "position:absolute; top:50%; left:55%; transform:translate(-55%,-50%); width:min(82vw,1000px)",
+      "mobile_css": "position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:82vw",
+      "z_index": 1,
+      "opacity": 0.22
+    },
+    "accent_color": "#2d8a7a",
+    "background": "#050505",
+    "copy": {
+      "headline": "Only fun, only positive emotions",
+      "labels": ["HAND-LAID CARBON", "CUSTOM FINISH", "REBRANDING 2026"],
+      "hint": "Move cursor to nudge · Space to freeze · Hold S for 0.8s to reveal"
+    },
+    "s_hold_corridor": {
+      "activation_ms": 800,
+      "width_px": 250,
+      "border": "1px dashed #2d8a7a opacity 0.3"
+    },
+    "fallback_poster": {
+      "frame": "frame-01.png",
+      "frame_sha256": "d04f73afa0d1f61a7f4a29bf1c65e1e047a9d3224ae45771de6a359459118ef2",
+      "logo_sha256": "92e69605d590782df0c5cd0a070750a2a810f4d9a18ddca8cdbda88458278a7c"
+    }
+  },
+  "no_invented_claims": true
+}

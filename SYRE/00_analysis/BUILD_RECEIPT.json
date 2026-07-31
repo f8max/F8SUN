@@ -1,0 +1,50 @@
+{
+  "package": "SYRE_SITE_DEV_ESSENTIALS_20260731",
+  "created_utc": "2026-07-31T00:06:42.876059+00:00",
+  "source_root": "C:\\FATE\\WORK\\SYRE",
+  "original_physical_files": 283,
+  "original_bytes": 385698478,
+  "package_files_before_manifest": 215,
+  "package_bytes_before_manifest": 39031817,
+  "selection": {
+    "primary_baseline": "C1",
+    "feature_sources": [
+      "C3 Ride Replay",
+      "C4 editable brief/export"
+    ],
+    "motion_reference": "V2 Brownian/cursor implementation",
+    "palette_authority": "Каталог цветов Syre (RU).ai — 15 base colors"
+  },
+  "fresh_source_qa": {
+    "C1": {
+      "lint": "pass",
+      "typecheck": "pass",
+      "tests": "8/8",
+      "build": "pass"
+    },
+    "C2": {
+      "lint": "pass",
+      "typecheck": "pass",
+      "tests": "13/13",
+      "build": "pass"
+    },
+    "C3": {
+      "lint": "pass",
+      "typecheck": "pass",
+      "tests": "33/33",
+      "build": "pass"
+    },
+    "C4": {
+      "lint": "pass",
+      "typecheck": "pass",
+      "tests": "9/9",
+      "build": "pass"
+    },
+    "C5": {
+      "lint": "pass",
+      "typecheck": "pass",
+      "tests": "14/14",
+      "build": "pass"
+    }
+  }
+}

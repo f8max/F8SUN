@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <defs>
+    <pattern id="dot-mobile" patternUnits="userSpaceOnUse" width="3" height="3">
+      <circle cx="1.5" cy="1.5" r="0.4" fill="#1a1a1a"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="390" height="844" fill="#050505"/>
+  <rect width="390" height="844" fill="url(#dot-mobile)" opacity="0.3"/>
+
+  <!-- Safe area inset indicator -->
+  <rect x="0" y="0" width="390" height="44" fill="#111" opacity="0.3"/>
+  <text x="195" y="28" fill="#444" font-family="monospace" font-size="9" text-anchor="middle">SAFE AREA TOP</text>
+  <rect x="0" y="810" width="390" height="34" fill="#111" opacity="0.3"/>
+  <text x="195" y="832" fill="#444" font-family="monospace" font-size="9" text-anchor="middle">SAFE AREA BOTTOM</text>
+
+  <!-- Zone A: Headline - centered top -->
+  <rect x="35" y="60" width="320" height="60" fill="none" stroke="#555" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="195" y="80" fill="#ccc" font-family="sans-serif" font-size="18" text-anchor="middle" letter-spacing="1">Only fun, only</text>
+  <text x="195" y="100" fill="#ccc" font-family="sans-serif" font-size="18" text-anchor="middle" letter-spacing="1">positive emotions</text>
+  <text x="195" y="130" fill="#444" font-family="monospace" font-size="8" text-anchor="middle">ZONE A · z=3</text>
+
+  <!-- Logo layer (z=1) - centered -->
+  <rect x="35" y="345" width="320" height="154" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="8,4" opacity="0.5"/>
+  <text x="195" y="415" fill="#fff" font-family="sans-serif" font-size="36" font-weight="bold" opacity="0.22" text-anchor="middle" letter-spacing="12">SYRE</text>
+  <text x="195" y="440" fill="#666" font-family="monospace" font-size="9" text-anchor="middle" opacity="0.7">LOGO z=1 · 320×154px · 82vw</text>
+  <text x="195" y="455" fill="#666" font-family="monospace" font-size="9" text-anchor="middle" opacity="0.7">opacity 0.22</text>
+
+  <!-- Canvas frame field (z=2) - mobile frames (6 frames, smaller) -->
+  <g opacity="0.5">
+    <rect x="50" y="200" width="80" height="24" rx="2" fill="none" stroke="#2d8a7a" stroke-width="1.2" transform="rotate(-10,90,212)"/>
+    <rect x="260" y="180" width="75" height="22" rx="2" fill="none" stroke="#2d8a7a" stroke-width="1.2" transform="rotate(15,297,191)"/>
+    <rect x="120" y="530" width="82" height="24" rx="2" fill="none" stroke="#2d8a7a" stroke-width="1.2" transform="rotate(-8,161,542)"/>
+    <rect x="230" y="560" width="78" height="22" rx="2" fill="none" stroke="#2d8a7a" stroke-width="1.2" transform="rotate(12,269,571)"/>
+    <rect x="60" y="630" width="76" height="22" rx="2" fill="none" stroke="#2d8a7a" stroke-width="1.2" transform="rotate(-14,98,641)"/>
+    <rect x="250" y="680" width="80" height="24" rx="2" fill="none" stroke="#2d8a7a" stroke-width="1.2" transform="rotate(18,290,692)"/>
+  </g>
+
+  <!-- Zone B: Technical labels -->
+  <rect x="65" y="510" width="260" height="50" fill="none" stroke="#555" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="195" y="528" fill="#555" font-family="monospace" font-size="10" text-anchor="middle" letter-spacing="1.5">HAND-LAID CARBON</text>
+  <text x="195" y="542" fill="#555" font-family="monospace" font-size="10" text-anchor="middle" letter-spacing="1.5">CUSTOM FINISH</text>
+  <text x="195" y="556" fill="#444" font-family="monospace" font-size="7" text-anchor="middle">ZONE B · z=3</text>
+
+  <!-- Zone C: Hint -->
+  <rect x="30" y="780" width="330" height="16" fill="none" stroke="#555" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <text x="195" y="792" fill="#666" font-family="sans-serif" font-size="10" text-anchor="middle">nudge · Space freeze · hold S to reveal</text>
+  <text x="195" y="806" fill="#444" font-family="monospace" font-size="7" text-anchor="middle">ZONE C · z=3</text>
+
+  <!-- S-hold corridor -->
+  <line x1="195" y1="44" x2="195" y2="810" stroke="#2d8a7a" stroke-width="0.8" stroke-dasharray="3,6" opacity="0.2"/>
+
+  <!-- Viewport label -->
+  <text x="5" y="20" fill="#2d8a7a" font-family="monospace" font-size="10" opacity="0.9">MOBILE · 390×844 · 6 frames · ~25% neg. space</text>
+
+  <!-- Width annotation -->
+  <line x1="0" y1="838" x2="390" y2="838" stroke="#333" stroke-width="0.8"/>
+  <text x="195" y="836" fill="#333" font-family="monospace" font-size="8" text-anchor="middle">390px</text>
+</svg>

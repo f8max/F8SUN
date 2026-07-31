@@ -1,40 +1,47 @@
-# SYRE — essential website development pack
+# SYRE — материалы для нового сайта
 
-Отобранный и проверенный пакет материалов для разработки и модернизации нового сайта SYRE.
+Пакет раскрыт прямо в репозитории: документы, исходные ассеты и рабочие прототипы можно просматривать отдельно без скачивания ZIP.
 
-## Скачать
+## Начать здесь
 
-- [`SYRE_SITE_DEV_ESSENTIALS_20260731.zip`](./SYRE_SITE_DEV_ESSENTIALS_20260731.zip) — 35.80 MiB
-- [`SYRE_SITE_DEV_ESSENTIALS_20260731.zip.sha256`](./SYRE_SITE_DEV_ESSENTIALS_20260731.zip.sha256) — контрольная сумма
+1. [`README_START_HERE.md`](./README_START_HERE.md) — навигация и порядок работы.
+2. [`00_analysis/SOURCE_OF_TRUTH.md`](./00_analysis/SOURCE_OF_TRUTH.md) — иерархия источников.
+3. [`00_analysis/CONCEPT_SELECTION.md`](./00_analysis/CONCEPT_SELECTION.md) — выбор концептов.
+4. [`00_analysis/OPEN_PRODUCT_DECISIONS.md`](./00_analysis/OPEN_PRODUCT_DECISIONS.md) — что подтвердить перед публикацией.
+5. [`index.html`](./index.html) — локальный preview-hub.
 
-**SHA-256:** `cfb26fe6ef2fc95bf70e47df003f74aac1183f5cea2ec8dc6e5f58865f13b548`
+## Структура
 
-Проверка в PowerShell:
+- [`00_analysis/`](./00_analysis/) — аудит корпуса, manifest, provenance, checksum и решения;
+- [`01_brief_and_research/`](./01_brief_and_research/) — интервью, master brief, research, storyboard и wireframes;
+- [`02_brand_assets/`](./02_brand_assets/) — каталог цветов, логотипы, очищенные изображения рам и motion-reference;
+- [`03_current_site_reference/`](./03_current_site_reference/) — legacy-контент, геометрия и отобранные изображения;
+- [`04_prototypes/`](./04_prototypes/) — исходники концептов C1, C3 и C4 и визуальное сравнение;
+- [`Tools/`](./Tools/) — локальный сервер предпросмотра.
 
-```powershell
-(Get-FileHash .\SYRE_SITE_DEV_ESSENTIALS_20260731.zip -Algorithm SHA256).Hash.ToLower()
-```
-
-## Что внутри
-
-- `00_analysis/` — аудит корпуса, provenance, manifest, checksum и открытые продуктовые решения;
-- `01_brief_and_research/` — интервью, очищенный master brief, research, storyboard и wireframes;
-- `02_brand_assets/` — каталог цветов, логотипы, визуальные референсы и motion-assets;
-- `03_current_site_reference/` — извлечённый legacy-контент, точные данные продукта и отобранные изображения;
-- `04_prototypes/` — рабочие исходники концептов C1, C3 и C4 плюс визуальное сравнение;
-- `index.html` и `START_PREVIEW.*` — локальный навигатор по пакету.
-
-## Рекомендуемая сборка
+## Рекомендуемая архитектура
 
 - **C1** — основной production baseline;
-- **C3** — перенести модуль Ride Replay / интерактивное повествование;
-- **C4** — перенести Brief Studio / формирование запроса;
-- **V2** — использовать как motion- и asset-reference, не как готовую production-страницу.
+- **C3** — источник Ride Replay и интерактивного повествования;
+- **C4** — источник Brief Studio и экспорта запроса;
+- **V2** — только motion- и asset-reference.
 
-## Критичные факты перед публикацией сайта
+## Локальный просмотр
 
-1. В исходном каталоге подтверждено **15 базовых цветов**, тогда как часть прототипов заявляет 39 — это нужно исправить или подтвердить новой матрицей.
-2. Вес, цены, гарантия, география, контакты и юридические сведения отмечены как требующие актуального подтверждения.
-3. WordPress-код старого сайта сохранён только как reference; он не выбран техническим baseline.
+Из каталога `SYRE` запустить:
 
-Пакет сформирован 2026-07-31. Исходный корпус: 367.83 MiB; итоговый ZIP: 35.80 MiB. CRC, внутренние SHA-256, ссылки preview-hub и отсутствие приватных путей/токенов проверены перед публикацией.
+```powershell
+.\START_PREVIEW.cmd
+```
+
+После работы:
+
+```powershell
+.\STOP_PREVIEW.cmd
+```
+
+## Целостность
+
+Внутренний manifest: [`00_analysis/SHA256SUMS.txt`](./00_analysis/SHA256SUMS.txt). Проверено 216 записей, расхождений нет.
+
+Ключевой контентный конфликт: каталог подтверждает **15 базовых цветов**, а часть прототипов заявляет 39. Вес, цены, гарантию, географию, контакты и юридические сведения также нужно актуализировать перед production-релизом.

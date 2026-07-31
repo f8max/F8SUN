@@ -1,0 +1,16 @@
+{
+  "name": "ATELIER — Frame Brief Studio",
+  "short_name": "ATELIER",
+  "description": "A direct-manipulation workbench for shaping a hand-laid carbon frameset specification.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#F5F3EE",
+  "background_color": "#F5F3EE",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

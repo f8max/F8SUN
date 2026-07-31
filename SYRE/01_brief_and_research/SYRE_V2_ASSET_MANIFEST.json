@@ -1,0 +1,74 @@
+{
+  "manifest_id": "SYRE_V2_ASSET_MANIFEST_20260729",
+  "purpose": "Every logo, frame, font, and content asset bound to exact local path and source URL/hash",
+  "source_authority": {
+    "run85_baseline": {
+      "commit": "f45f31ccb619adfdbb4ecb8d247a1b87c7fb7fb0",
+      "tree": "d2a978edbbd0675426e9dcf5f4fbaae54639a1a2",
+      "aggregate": "58c27ea6f8ea9764492628d6e55f78610d87f08ef78923640c0ea4f7641dc37d"
+    },
+    "original_scrape": {
+      "zip_sha256": "9dd2a4095bfe129c60454256e7cfc6ccaf4f8dbda1c9269c41aa9bfe34991fc2",
+      "origin": "https://ridesyre.com",
+      "pages": 15,
+      "manifest_sha256": "9ba79e480187008d92b573b620699f88132b15a0a95b7c2aa308627285721bb2"
+    }
+  },
+  "logos": [
+    {
+      "id": "syre-logo-white",
+      "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/syre-logo-white.svg",
+      "v2_target_path": "shared/assets/syre-logo-white.svg",
+      "sha256": "92e69605d590782df0c5cd0a070750a2a810f4d9a18ddca8cdbda88458278a7c",
+      "source_url": "https://ridesyre.com/wp-content/uploads/2022/07/logo.svg",
+      "source_manifest_ref": "crawl-manifest.json home page images[1]",
+      "bytes": 10781,
+      "format": "SVG",
+      "viewbox": "0 0 137 66"
+    },
+    {
+      "id": "syre-logo-dark",
+      "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/syre-logo-dark.svg",
+      "v2_target_path": "shared/assets/syre-logo-dark.svg",
+      "sha256": "0f5decd8594efb5cb720c4a0346de9a717cd4fcd6d559f333c31270d583091d0",
+      "source_url": "https://ridesyre.com/wp-content/uploads/2022/07/logo-dark.svg",
+      "source_manifest_ref": "crawl-manifest.json home page images[6]",
+      "bytes": 10759,
+      "format": "SVG"
+    }
+  ],
+  "frames": [
+    {"id": "frame-01", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-01.png", "v2_target_path": "shared/assets/frame-01.png", "sha256": "d04f73afa0d1f61a7f4a29bf1c65e1e047a9d3224ae45771de6a359459118ef2", "bytes": 345265},
+    {"id": "frame-02", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-02.png", "v2_target_path": "shared/assets/frame-02.png", "sha256": "2de946d8609a69d6b3ec06399d05832a0ccf4997e29e5f05273dbb5c2ba2d639", "bytes": 401796},
+    {"id": "frame-03", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-03.png", "v2_target_path": "shared/assets/frame-03.png", "sha256": "a04c7e26640d29b64ee34eac076420db52571068a1a7812ee3f7aa003a184d66", "bytes": 446286},
+    {"id": "frame-04", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-04.png", "v2_target_path": "shared/assets/frame-04.png", "sha256": "cb94a6e5c6872dfd4c3c5e3ad0788f65b3082f0553dc4aa48cf61096eece4b0e", "bytes": 446719},
+    {"id": "frame-05", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-05.png", "v2_target_path": "shared/assets/frame-05.png", "sha256": "89fde205a1ce5398f8805a6379365ad12081ec017a65cccceb47c7a644ad94ee", "bytes": 452641},
+    {"id": "frame-06", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-06.png", "v2_target_path": "shared/assets/frame-06.png", "sha256": "36361d6283b8a16d336b2a8ca56bb81a01c05a717782e35cd0497ab361c5825f", "bytes": 307252},
+    {"id": "frame-07", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-07.png", "v2_target_path": "shared/assets/frame-07.png", "sha256": "b033fcae8953fbbae305f82dd38917577155c22e78bdb7e9003dbebe1a5c5244", "bytes": 405469},
+    {"id": "frame-08", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-08.png", "v2_target_path": "shared/assets/frame-08.png", "sha256": "de19b0b97950309d5294a3971a8d79d5dcd5f058c45eda77530443390f9bd9f5", "bytes": 430384},
+    {"id": "frame-09", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-09.png", "v2_target_path": "shared/assets/frame-09.png", "sha256": "42f7bbe3684e0258a69714241d2b97efc847b41ab7c033325f51d1611d2cbdca", "bytes": 454871},
+    {"id": "frame-10", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-10.png", "v2_target_path": "shared/assets/frame-10.png", "sha256": "499e936122f8e6c53443bc183aed394b7e258590bbe0e17bc4b73cfea2816d15", "bytes": 471847},
+    {"id": "frame-11", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-11.png", "v2_target_path": "shared/assets/frame-11.png", "sha256": "e95ccea141eeeea5422b8fbc65a2c951c82984d152024f08a9fbd857d882fabd", "bytes": 448379},
+    {"id": "frame-12", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-12.png", "v2_target_path": "shared/assets/frame-12.png", "sha256": "66331937569b095a181584b0eea3e84160520674d0ea8402d4dfd4b6ea6a739b", "bytes": 450192},
+    {"id": "frame-13", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-13.png", "v2_target_path": "shared/assets/frame-13.png", "sha256": "5b36e5c4fffa344d97fb4fd93d0dce2b957cf9b9bf9548dcebcda2339b795edc", "bytes": 469910},
+    {"id": "frame-14", "local_path": "input/run85-baseline/candidate/deliverables/shared/assets/frame-14.png", "v2_target_path": "shared/assets/frame-14.png", "sha256": "fa02ab539679759a60ca4f4ecc9cd97f63e2236ff243fe9cedfd95fcf6c32eec", "bytes": 439126}
+  ],
+  "content_references": [
+    {
+      "id": "original_brief",
+      "source_path": "input/source/original-brief.txt",
+      "sha256": "d7dccc6dd104e23a8e8be7bd599c141aa4ab97756e0c75991c546719c90428aa"
+    },
+    {
+      "id": "original_site_logo",
+      "source_url": "https://ridesyre.com/wp-content/uploads/2022/07/logo.svg"
+    }
+  ],
+  "fonts": {
+    "display": "condensed grotesk with strong vertical structure",
+    "text": "neutral humanist grotesk",
+    "technical": "mono face"
+  },
+  "no_invented_assets": true,
+  "all_assets_from_run85_baseline": true
+}

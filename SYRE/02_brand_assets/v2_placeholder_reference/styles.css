@@ -1,0 +1,278 @@
+/* SYRE V2 — Best Placeholder: styles.css */
+/* All tokens pinned to run95 storyboard: #050505 field, #2d8a7a accent, right-side logo */
+
+/* === RESET & BASE === */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  min-height: 100svh;
+  overflow: hidden;
+  background: #050505;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: #ccc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+/* === CANVAS (frame field) === */
+#c {
+  display: block;
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+/* === LOGO LAYER === */
+#logo-layer {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-55%, -50%);
+  width: min(82vw, 1000px);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.22;
+}
+#logo-layer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* === CORRIDOR INDICATOR === */
+#corridor {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 100%;
+  border-left: 1px dashed rgba(45, 138, 122, 0.0);
+  border-right: 1px dashed rgba(45, 138, 122, 0.0);
+  pointer-events: none;
+  z-index: 5;
+  transition: border-color 0.8s ease;
+}
+#corridor.active {
+  border-color: rgba(45, 138, 122, 0.3);
+}
+
+/* === COPY ZONES === */
+#zone-a {
+  position: absolute;
+  top: 64px;
+  left: 64px;
+  z-index: 3;
+  max-width: 480px;
+  font-family: 'Arial Narrow', 'Helvetica Neue Condensed', 'Franklin Gothic Medium', system-ui, sans-serif;
+  font-weight: 700;
+  font-stretch: condensed;
+  letter-spacing: 0.02em;
+  color: #ccc;
+}
+#zone-a .headline {
+  font-size: clamp(24px, 1.8vw, 32px);
+  line-height: 1.2;
+  margin: 0;
+}
+
+#zone-b {
+  position: absolute;
+  bottom: 80px;
+  left: 64px;
+  z-index: 3;
+  font-family: 'Courier New', 'Liberation Mono', 'SF Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #555;
+  line-height: 1.8;
+}
+#zone-b span { display: block; }
+
+#zone-c {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 1.5s ease;
+  white-space: nowrap;
+}
+#zone-c.dismissed { opacity: 0; }
+
+/* === TOAST === */
+#toast {
+  position: fixed;
+  bottom: 3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.10);
+  color: #888;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-size: 12px;
+  font-family: system-ui, sans-serif;
+  opacity: 0;
+  transition: opacity 0.4s;
+  pointer-events: none;
+  z-index: 10;
+}
+#toast.visible { opacity: 1; }
+
+/* === EMAIL / CTA ZONE === */
+#email-cta {
+  position: absolute;
+  bottom: 100px;
+  left: 64px;
+  z-index: 3;
+  display: none;
+}
+#email-cta.visible {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#email-cta input[type="email"] {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: #ccc;
+  font-size: 13px;
+  font-family: system-ui, sans-serif;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+#email-cta input[type="email"]:focus { border-color: #2d8a7a; }
+#email-cta button {
+  background: #2d8a7a;
+  color: #050505;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-family: system-ui, sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#email-cta button:hover { background: #3aa898; }
+#email-cta .disclosure {
+  font-size: 10px;
+  color: #555;
+  margin-top: 4px;
+  flex-basis: 100%;
+}
+
+#learn-more {
+  position: absolute;
+  bottom: 120px;
+  left: 64px;
+  z-index: 3;
+  color: #2d8a7a;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: system-ui, sans-serif;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+#learn-more:hover { opacity: 1; text-decoration: underline; }
+#learn-more::after { content: ' \2192'; }
+
+/* === NO-JS FALLBACK === */
+
+/* === REDUCED MOTION === */
+@media (prefers-reduced-motion: reduce) {
+  #c { opacity: 0.25; }
+  #zone-c::after {
+    content: ' (Reduced motion \2014 press Space to toggle frames)';
+    color: #2d8a7a;
+  }
+}
+
+/* === RESPONSIVE === */
+@media (min-width: 1921px) {
+  #logo-layer { width: 1000px; }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+  #logo-layer { left: 58%; transform: translate(-58%, -50%); }
+  #zone-a { top: 48px; left: 40px; max-width: 360px; }
+  #zone-a .headline { font-size: clamp(20px, 2vw, 28px); }
+  #zone-b { bottom: 64px; left: 40px; font-size: 10px; }
+  #zone-c { bottom: 20px; font-size: 11px; }
+  #email-cta { bottom: 84px; left: 40px; }
+}
+
+@media (max-width: 767px) {
+  #logo-layer {
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 82vw;
+  }
+  #zone-a {
+    top: 32px; left: 50%;
+    transform: translateX(-50%);
+    max-width: 320px; text-align: center;
+  }
+  #zone-a .headline { font-size: clamp(18px, 4.5vw, 24px); }
+  #zone-b {
+    bottom: 100px; left: 50%;
+    transform: translateX(-50%);
+    text-align: center; font-size: 10px;
+    letter-spacing: 0.08em;
+  }
+  #zone-c {
+    bottom: 16px; font-size: 10px;
+    white-space: normal; max-width: 280px;
+  }
+  #toast { bottom: 3rem; font-size: 10px; padding: 0.4rem 1rem; }
+  #email-cta { bottom: 84px; left: 50%; transform: translateX(-50%); }
+  #email-cta input[type="email"] { width: 140px; font-size: 11px; }
+  #email-cta button { font-size: 11px; padding: 6px 12px; }
+  #learn-more {
+    bottom: 100px; left: 50%;
+    transform: translateX(-50%); font-size: 11px;
+  }
+  #corridor { width: 180px; }
+}
+
+@media (max-width: 389px) {
+  #logo-layer { width: 82vw; min-width: 262px; }
+  #zone-a .headline { font-size: 16px; }
+  #zone-b { font-size: 9px; letter-spacing: 0.06em; }
+  #zone-c { font-size: 9px; max-width: 240px; }
+  #email-cta { bottom: 80px; }
+  #email-cta input[type="email"] { width: 110px; }
+}
+
+@supports (padding: env(safe-area-inset-bottom)) {
+  #zone-c { bottom: calc(24px + env(safe-area-inset-bottom)); }
+  @media (max-width: 767px) {
+    #zone-c { bottom: calc(16px + env(safe-area-inset-bottom)); }
+  }
+}
+
+/* === ACCESSIBILITY === */
+#email-cta input[type="email"]:focus-visible,
+#email-cta button:focus-visible,
+#learn-more:focus-visible {
+  outline: 2px solid #2d8a7a;
+  outline-offset: 2px;
+}
+::selection {
+  background: rgba(45, 138, 122, 0.3);
+  color: #fff;
+}

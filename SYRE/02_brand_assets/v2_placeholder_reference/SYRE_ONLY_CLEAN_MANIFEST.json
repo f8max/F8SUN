@@ -1,0 +1,196 @@
+{
+  "created_utc": "2026-07-29T14:59:56.051Z",
+  "user_correction": "remove headtube doodle, lower-downtube microtext, chainstay trees, small lower-downtube blob, and bottom yoke mark; retain only main Syre branding",
+  "clean_source": {
+    "file": "C:/Users/OMEN/.codex/generated_images/019fad55-1b48-7420-81b3-c6f05eeec70f/call_H7jshiS9Bzi9Z0sMQUj3ZG1p.png",
+    "sha256": "433e62d75363d3b0c29ff6cc153c5586f0b5bea243b0440231a30893a6922ff2",
+    "width": 1456,
+    "height": 1080,
+    "background_removed": true
+  },
+  "method": "ImageGen clean master; deterministic checkerboard extraction; per-source color sampling; paint-only recolor with dilated protection around the main Syre wordmark",
+  "assets": [
+    {
+      "file": "frame-01.png",
+      "width": 1529,
+      "height": 1134,
+      "source_color": {
+        "r": 244,
+        "g": 236,
+        "b": 228,
+        "samples": 15769
+      },
+      "recolored_paint_pixels": 166170,
+      "output_sha256": "ac3fb314bec4d85d575de817fd3b2d40100161584e34933874f90ec578e75d31"
+    },
+    {
+      "file": "frame-02.png",
+      "width": 1527,
+      "height": 1133,
+      "source_color": {
+        "r": 252,
+        "g": 172,
+        "b": 156,
+        "samples": 15744
+      },
+      "recolored_paint_pixels": 165835,
+      "output_sha256": "ab83e25bd47182b75b26d861e7dc7908b08c90009184e4dd46c1ce8696260e01"
+    },
+    {
+      "file": "frame-03.png",
+      "width": 1527,
+      "height": 1132,
+      "source_color": {
+        "r": 140,
+        "g": 188,
+        "b": 204,
+        "samples": 15744
+      },
+      "recolored_paint_pixels": 165727,
+      "output_sha256": "98a06fa59ec15a554078b8b5c554f68f328e72e8b3e89c8a52f33e31402b188c"
+    },
+    {
+      "file": "frame-04.png",
+      "width": 1530,
+      "height": 1134,
+      "source_color": {
+        "r": 140,
+        "g": 212,
+        "b": 236,
+        "samples": 15766
+      },
+      "recolored_paint_pixels": 166360,
+      "output_sha256": "f0f3ff64d6a2359967f5a7db6c66e4b8c6ad850de66ff7503ebe21b37b4c6957"
+    },
+    {
+      "file": "frame-05.png",
+      "width": 1529,
+      "height": 1132,
+      "source_color": {
+        "r": 116,
+        "g": 140,
+        "b": 172,
+        "samples": 15756
+      },
+      "recolored_paint_pixels": 165941,
+      "output_sha256": "7ef9f2e30eeb623d1d6910c588d6e0a365084fd57a4fcc94b0e31f88c84b1882"
+    },
+    {
+      "file": "frame-06.png",
+      "width": 1529,
+      "height": 1133,
+      "source_color": {
+        "r": 252,
+        "g": 212,
+        "b": 4,
+        "samples": 15756
+      },
+      "recolored_paint_pixels": 166047,
+      "output_sha256": "8553bdea636096621ba1921dcad7fb8925006527e2e40a373a55f9676723b849"
+    },
+    {
+      "file": "frame-07.png",
+      "width": 1526,
+      "height": 1133,
+      "source_color": {
+        "r": 252,
+        "g": 140,
+        "b": 68,
+        "samples": 15717
+      },
+      "recolored_paint_pixels": 165743,
+      "output_sha256": "217426a5c21d59415e8ef6ad0cd609ce5cba0cde3703172e874e94c59c1f2acf"
+    },
+    {
+      "file": "frame-08.png",
+      "width": 1526,
+      "height": 1133,
+      "source_color": {
+        "r": 4,
+        "g": 236,
+        "b": 220,
+        "samples": 15738
+      },
+      "recolored_paint_pixels": 165743,
+      "output_sha256": "38e14ebb8e53c879268c2324bd2b7616f58358e9344dfcbc872b22574822b27f"
+    },
+    {
+      "file": "frame-09.png",
+      "width": 1525,
+      "height": 1133,
+      "source_color": {
+        "r": 76,
+        "g": 196,
+        "b": 148,
+        "samples": 15679
+      },
+      "recolored_paint_pixels": 165646,
+      "output_sha256": "e15ff65e9f242b81f379c6aa7f11023b331ad5bf0dd539cd1f8e3f8dab70cbbd"
+    },
+    {
+      "file": "frame-10.png",
+      "width": 1526,
+      "height": 1133,
+      "source_color": {
+        "r": 44,
+        "g": 108,
+        "b": 60,
+        "samples": 15714
+      },
+      "recolored_paint_pixels": 165743,
+      "output_sha256": "d614d0d973aae3a4f003a081ddd625912dcd8c3161350497ec644f09e13ab257"
+    },
+    {
+      "file": "frame-11.png",
+      "width": 1524,
+      "height": 1133,
+      "source_color": {
+        "r": 156,
+        "g": 156,
+        "b": 156,
+        "samples": 15679
+      },
+      "recolored_paint_pixels": 165516,
+      "output_sha256": "0b177ac2c87063e259f8988ec6d25b0957c9ad212dd9510b10660b3567ca3200"
+    },
+    {
+      "file": "frame-12.png",
+      "width": 1524,
+      "height": 1133,
+      "source_color": {
+        "r": 44,
+        "g": 52,
+        "b": 68,
+        "samples": 15679
+      },
+      "recolored_paint_pixels": 165516,
+      "output_sha256": "0de69bde7523a84992edff63caf2a3327107dd2e21d7c94351a62016d5f23e5e"
+    },
+    {
+      "file": "frame-13.png",
+      "width": 1526,
+      "height": 1133,
+      "source_color": {
+        "r": 164,
+        "g": 84,
+        "b": 44,
+        "samples": 15711
+      },
+      "recolored_paint_pixels": 165743,
+      "output_sha256": "b60366aafd9280398eb29504e1daadf0f0cf5cd47f106cadaca57207e47fcdee"
+    },
+    {
+      "file": "frame-14.png",
+      "width": 1526,
+      "height": 1133,
+      "source_color": {
+        "r": 220,
+        "g": 4,
+        "b": 100,
+        "samples": 15720
+      },
+      "recolored_paint_pixels": 165743,
+      "output_sha256": "3433690bbcb90adab5f6de15648e154344c8ad61828dbf72ed03dd1a719c3ab3"
+    }
+  ]
+}

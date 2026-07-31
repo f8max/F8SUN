@@ -1,0 +1,17 @@
+{
+  "name": "SYRE — Work, in rhythm",
+  "short_name": "SYRE",
+  "description": "A focused approach to keeping decisions, context, and next steps connected.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f1e8",
+  "theme_color": "#17231d",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

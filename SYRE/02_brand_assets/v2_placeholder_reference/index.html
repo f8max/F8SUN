@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="SYRE — Only fun, only positive emotions. Rebranding 2026.">
+<meta name="theme-color" content="#050505">
+<title>SYRE — Best Placeholder</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+/* Inline critical: no-JS poster renders immediately without stylesheet wait */
+.static-poster {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+  background: #050505;
+}
+.static-poster .static-logo {
+  width: min(82vw, 1000px);
+  opacity: 0.5;
+  margin-bottom: 2rem;
+}
+.static-poster .static-frame {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  width: 35%;
+  opacity: 0.6;
+}
+.static-poster .static-headline {
+  font-family: 'Arial Narrow', 'Helvetica Neue Condensed', system-ui, sans-serif;
+  font-size: clamp(24px, 1.8vw, 32px);
+  color: #ccc;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.static-poster .static-sub {
+  font-family: 'Courier New', 'Liberation Mono', monospace;
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<!-- Skip link for keyboard accessibility -->
+<a href="#interaction-hint" class="skip-link" style="position:absolute;top:-100px;left:0;background:#2d8a7a;color:#050505;padding:8px 16px;z-index:100;font-size:14px;font-weight:700;text-decoration:none;">Skip to interaction controls</a>
+
+<!-- NO-JS / NO-CANVAS FALLBACK POSTER -->
+<noscript>
+  <div class="static-poster" id="poster-static">
+    <img src="assets/syre-logo-white.svg" alt="SYRE" class="static-logo" width="1000" height="482">
+    <img src="assets/frame-01.png" alt="" class="static-frame" width="400" height="300" aria-hidden="true">
+    <h1 class="static-headline">Only fun, only positive emotions</h1>
+    <p class="static-sub">Rebranding 2026 &middot; Coming soon</p>
+    <form style="display:flex;gap:8px;align-items:center;margin-top:1rem;" onsubmit="return false;">
+      <input type="email" placeholder="Your email" style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:4px;padding:8px 12px;color:#ccc;font-size:13px;width:200px;">
+      <button type="submit" style="background:#2d8a7a;color:#050505;border:none;border-radius:4px;padding:8px 16px;font-size:13px;font-weight:600;">Notify me</button>
+    </form>
+    <p style="font-size:10px;color:#555;margin-top:4px;">Your email stays on your device. This is a placeholder &mdash; nothing is sent or stored.</p>
+  </div>
+</noscript>
+
+<!-- Canvas for frame rendering -->
+<!-- Rendered by JS; hidden when JS disabled -->
+<!-- Canvas element created by app.js for proper DPR handling -->
+
+<!-- LOGO LAYER — rendered behind canvas, right-side alignment -->
+<div id="logo-layer">
+  <img src="assets/syre-logo-white.svg" alt="SYRE" width="1000" height="482">
+</div>
+
+<!-- CORRIDOR INDICATOR — activated by S-hold easter egg -->
+<div id="corridor" role="presentation" aria-hidden="true"></div>
+
+<!-- ZONE A: Headline -->
+<div id="zone-a" aria-live="polite">
+  <h1 class="headline">Only fun, only positive emotions</h1>
+</div>
+
+<!-- ZONE B: Technical labels -->
+<div id="zone-b" aria-live="polite">
+  <span>HAND-LAID CARBON</span>
+  <span>CUSTOM FINISH</span>
+  <span>REBRANDING 2026</span>
+</div>
+
+<!-- ZONE C: Interaction hint (dismissible) -->
+<div id="zone-c" id="interaction-hint" role="status" aria-live="polite">
+  Move cursor to nudge &middot; Space to freeze &middot; Hold S for 0.8s to reveal
+</div>
+
+<!-- TOAST: Freeze/resume notifications -->
+<div id="toast" role="status" aria-live="assertive"></div>
+
+<!-- EMAIL/CTA ZONE -->
+<div id="email-cta">
+  <input type="email" id="email-input" placeholder="Your email" aria-label="Email address for notifications">
+  <button id="email-submit">Notify me</button>
+  <span class="disclosure">Your email stays on your device. This is a placeholder &mdash; nothing is sent or stored.</span>
+</div>
+
+<!-- LEARN MORE CTA -->
+<a href="https://ridesyre.com" id="learn-more" target="_blank" rel="noopener noreferrer">Learn more</a>
+
+<script src="app.js"></script>
+</body>
+</html>

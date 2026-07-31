@@ -1,0 +1,212 @@
+{
+  "status": "legacy_reference_requires_owner_confirmation",
+  "source": "stable scrape 2026-07-29 of ridesyre.com",
+  "model": "SYRE Punkcake",
+  "prices": {
+    "usd": 3500,
+    "rub": 300000,
+    "status": "legacy_do_not_publish_as_current"
+  },
+  "sizes_mm": [
+    510,
+    530,
+    550,
+    570,
+    590
+  ],
+  "legacy_colors": [
+    "Light Ivory",
+    "Pink Pig",
+    "Amazon Blue",
+    "Gulf Blue",
+    "China Blue",
+    "Bahama Yellow",
+    "Peach Orange",
+    "Mint Green",
+    "Soft Green",
+    "Olive Green",
+    "Classic Grey",
+    "Medium Grey",
+    "Slate Grey",
+    "Sepia Brown",
+    "Ruby Star"
+  ],
+  "geometry": {
+    "frame_size": [
+      51,
+      53,
+      55,
+      57,
+      59
+    ],
+    "stack_mm": [
+      536,
+      556,
+      577,
+      598,
+      616
+    ],
+    "reach_mm": [
+      362,
+      371,
+      375,
+      389,
+      403
+    ],
+    "head_tube_angle_deg": [
+      70,
+      71,
+      71.5,
+      72,
+      72
+    ],
+    "head_tube_mm": [
+      120,
+      135,
+      155,
+      175,
+      195
+    ],
+    "seat_tube_angle_deg": [
+      74,
+      73.5,
+      72.5,
+      72.5,
+      72.5
+    ],
+    "seat_tube_mm": [
+      430,
+      465,
+      490,
+      520,
+      540
+    ],
+    "top_tube_horizontal_mm": [
+      510,
+      530,
+      550,
+      570,
+      590
+    ],
+    "bb_drop_mm": [
+      75,
+      75,
+      75,
+      75,
+      75
+    ],
+    "standover_mm_at_700c_x_50": [
+      757,
+      783,
+      805,
+      829,
+      848
+    ],
+    "front_center_mm": [
+      585,
+      585,
+      600,
+      616,
+      636
+    ],
+    "wheelbase_mm": [
+      996,
+      1003,
+      1009,
+      1024,
+      1044
+    ],
+    "chainstay_mm": [
+      420,
+      420,
+      420,
+      420,
+      420
+    ],
+    "fork_length_mm": [
+      390,
+      390,
+      390,
+      390,
+      390
+    ],
+    "fork_rake_mm": [
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "trail_mm": [
+      75,
+      68,
+      65,
+      62,
+      62
+    ],
+    "seat_tube_offset_mm": 7
+  },
+  "frame_weight_unpainted_g": {
+    "510": 910,
+    "530": 935,
+    "550": 1015,
+    "570": 998,
+    "590": 1030
+  },
+  "specification": {
+    "frame": {
+      "material": "three types of carbon fibre",
+      "seatpost_mm": 27.2,
+      "routing": "full internal; mechanical, SRAM eTap, Shimano Di2 SD300",
+      "front_derailleur_note": "Di2 front derailleur cable hole requested in advance"
+    },
+    "fork": {
+      "material": "three types of carbon fibre",
+      "routing": "full internal",
+      "tapered_steerer": "1-1/8 to 1-1/4 inch",
+      "bearing": "FSA TH-970E ACB 45x45 MR168",
+      "weight_g": 480
+    },
+    "tire_clearance": {
+      "700c_mm": 50,
+      "650b_inch": 2.5,
+      "minimum_frame_clearance_mm": 5
+    },
+    "chainrings": {
+      "1x_teeth": {
+        "min": 35,
+        "max": 46
+      },
+      "2x_outer_max_teeth": 53,
+      "2x_inner_min_teeth": 35,
+      "minimum_ring_frame_clearance_mm": 3.5
+    },
+    "mounts": {
+      "under_bb_bosses": 5,
+      "bottle_cages": [
+        "seat tube",
+        "down tube"
+      ],
+      "optional": [
+        "fork",
+        "top tube"
+      ]
+    },
+    "thru_axles": {
+      "rear": "X-12 142x12, Al 7075-T6",
+      "front": "X-12 100x12, Al 7075-T6"
+    },
+    "disc_brakes": "Flat Mount, 140 or 160 mm front/rear",
+    "bottom_bracket": "T47, 86 mm width"
+  },
+  "order_bundle": [
+    "frame",
+    "fork",
+    "thru axles",
+    "headset",
+    "integrated seatpost clamp",
+    "two rear derailleur hangers",
+    "front derailleur bracket",
+    "protective branded packaging"
+  ]
+}

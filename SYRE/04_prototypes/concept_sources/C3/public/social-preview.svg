@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SYRE — Work, in rhythm</title>
+  <desc id="desc">Move important work without losing the thread.</desc>
+  <rect width="1200" height="630" fill="#f4f1e8"/>
+  <g stroke="#17231d" stroke-opacity=".08">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M90 0v630M180 0v630M270 0v630M360 0v630M450 0v630M540 0v630M630 0v630M720 0v630M810 0v630M900 0v630M990 0v630M1080 0v630"/>
+  </g>
+  <circle cx="965" cy="188" r="245" fill="#d7ff67" fill-opacity=".34"/>
+  <circle cx="965" cy="315" r="174" fill="none" stroke="#17231d" stroke-opacity=".2"/>
+  <circle cx="965" cy="315" r="108" fill="#d7ff67"/>
+  <circle cx="965" cy="315" r="36" fill="#17231d"/>
+  <path d="m948 315 13 13 27-31" fill="none" stroke="#d7ff67" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <g fill="#17231d">
+    <path d="m88 81 22-14 22 14v20l-22 14-22-14Z" fill-opacity=".13"/>
+    <path d="m94 84 16-10 16 10-16 10Zm0 8 16 10 16-10M94 100l16 10 16-10" fill="none" stroke="#17231d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <text x="148" y="101" font-family="Arial, sans-serif" font-size="27" font-weight="800" letter-spacing="9">SYRE</text>
+    <text x="86" y="245" font-family="Georgia, serif" font-size="72">Move important work</text>
+    <text x="86" y="332" font-family="Georgia, serif" font-size="72" font-style="italic" fill="#34443a">without losing the thread.</text>
+    <text x="88" y="405" font-family="Arial, sans-serif" font-size="24" fill="#34443a">A calmer operating rhythm for shared clarity and continuity.</text>
+  </g>
+  <rect x="88" y="482" width="270" height="64" rx="32" fill="#17231d"/>
+  <text x="121" y="522" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#fffcf6">WORK, IN RHYTHM</text>
+  <circle cx="324" cy="514" r="21" fill="#d7ff67"/>
+  <path d="M316 514h15m-6-6 6 6-6 6" fill="none" stroke="#17231d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>
